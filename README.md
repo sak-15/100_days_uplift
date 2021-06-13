@@ -1,0 +1,5 @@
+# 100_days_uplift
+_JAVA_
+_______________________________________________________________
+This repository contains solutions of some basic JAVA programs.
+_______________________________________________________________
