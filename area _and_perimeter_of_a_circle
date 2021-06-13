@@ -1,0 +1,16 @@
+import java.util.Scanner;
+import java.lang.Math.*;
+public class circle 
+{
+    public static void main(String[] args) 
+	    {
+	        Scanner sc = new Scanner(System.in);
+	        System.out.print("Enter the radius: ");
+	        float rad=sc.nextFloat();
+	        double perimeter =2*Math.PI*rad;
+	        double area =Math.PI*rad*rad;
+	        System.out.printf("Perimeter = "+ perimeter+"\n");
+	        System.out.printf("Area = "+area);
+	    }
+
+}
