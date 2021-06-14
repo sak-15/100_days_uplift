@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class neon 
+{
+    public static void main(String[] args) 
+	    {
+	        Scanner sc = new Scanner(System.in);
+	        System.out.print("Enter the number: ");
+	        int n=sc.nextInt();
+	        int sq=n*n;
+	        int x=sq/10;
+	        int y=sq%10;
+	        if((x+y)==n)
+	        {
+	        	System.out.print("This number is a NEON NUMBER.");
+	        }
+	        else {
+	        	System.out.print("This number is NOT a NEON NUMBER.");
+	        }
+	        
+	    }
+
+}
